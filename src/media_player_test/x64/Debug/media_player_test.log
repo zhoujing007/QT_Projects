@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (media_player_test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Moc'ing media_player_test.h...
+  Uic'ing media_player_test.ui...
+  Rcc'ing media_player_test.qrc...
+RCC : warning : No resources in 'E:\QT_Project\src\media_player_test\media_player_test.qrc'.
+  
+  moc_media_player_test.cpp
+  main.cpp
+  media_player_test.cpp
+  正在生成代码...
+  qrc_media_player_test.cpp
+  media_player_test.vcxproj -> E:\QT_Project\src\x64\Debug\media_player_test.exe
+  media_player_test.vcxproj -> E:\QT_Project\src\x64\Debug\media_player_test.pdb (Full PDB)

@@ -1,0 +1,16 @@
+﻿  Uic'ing redo_undo.ui...
+  Rcc'ing redo_undo.qrc...
+  Moc'ing redo_undo.h...
+  Moc'ing questionlistdelegate.h...
+  Moc'ing UndoTableWidget.h...
+   RCC: Warning: No resources in 'E:\QT_Project\src\redo_undo\redo_undo.qrc'.
+  main.cpp
+  questionlistdelegate.cpp
+  redo_undo.cpp
+  UndoTableWidget.cpp
+  qrc_redo_undo.cpp
+  moc_redo_undo.cpp
+  moc_questionlistdelegate.cpp
+  moc_UndoTableWidget.cpp
+  redo_undo.vcxproj -> E:\QT_Project\src\x64\Debug\redo_undo.exe
+  redo_undo.vcxproj -> E:\QT_Project\src\x64\Debug\redo_undo.pdb (Full PDB)

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>redo_undoClass</class>
+ <widget class="QWidget" name="redo_undoClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>redo_undo</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="UndoTableWidget" name="tableWidget">
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::CustomContextMenu</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::DoubleClicked|QAbstractItemView::EditKeyPressed</set>
+     </property>
+     <row>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Q</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>W</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>E</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>UndoTableWidget</class>
+   <extends>QTableWidget</extends>
+   <header location="global">undotablewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="redo_undo.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>redo_undoClass</receiver>
+   <slot>save_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>18</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>717</x>
+     <y>41</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>save_data()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,11 @@
+﻿  Moc'ing PythagoreanTree.h...
+  Uic'ing PythagoreanTree.ui...
+  Rcc'ing PythagoreanTree.qrc...
+RCC : warning : No resources in 'E:\QT_Project\PythagoreanTree\PythagoreanTree\PythagoreanTree.qrc'.
+  
+  moc_PythagoreanTree.cpp
+  main.cpp
+  PythagoreanTree.cpp
+  qrc_PythagoreanTree.cpp
+  PythagoreanTree.vcxproj -> E:\QT_Project\PythagoreanTree\x64\Debug\PythagoreanTree.exe
+  PythagoreanTree.vcxproj -> E:\QT_Project\PythagoreanTree\x64\Debug\PythagoreanTree.pdb (Full PDB)

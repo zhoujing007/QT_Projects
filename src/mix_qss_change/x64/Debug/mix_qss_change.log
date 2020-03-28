@@ -1,0 +1,13 @@
+﻿  Moc'ing mix_qss_change.h...
+  Uic'ing mix_qss_change.ui...
+  Rcc'ing mix_qss_change.qrc...
+RCC : warning : No resources in 'H:\QT_Project\src\mix_qss_change\mix_qss_change.qrc'.
+  
+  moc_mix_qss_change.cpp
+  main.cpp
+  mix_qss_change.cpp
+  tool_button.cpp
+  正在生成代码...
+  qrc_mix_qss_change.cpp
+  mix_qss_change.vcxproj -> H:\QT_Project\src\x64\Debug\mix_qss_change.exe
+  mix_qss_change.vcxproj -> H:\QT_Project\src\x64\Debug\mix_qss_change.pdb (Full PDB)
